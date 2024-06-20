@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Function</h1>
+    <hr>
+    <script>
+
+        console.log("funtion display message")
+        function message1(){
+            console.log("This is message 1")
+        }
+        message1()
+
+        console.log("function with parameters")
+        function message2(message2){
+            console.log("this is "+message2)
+        }
+
+        message2("message 2")
+
+        console.log("function return type...")
+        
+
+        const res=function add(x,y){
+            return x+y
+        }
+
+        console.log("the answer is = ",res(22,5))
+
+        console.log("function anonymous")
+
+        const res2=function(x,y){
+            return x-y;
+        }
+
+        console.log("The answer is = ",res2(42,33))
+
+        console.log("Arrow function")
+
+        const res3=(x,y)=>{
+                return x*y
+        }
+
+        console.log("The answer is = ",res3(2,5))
+
+        
+
+
+    </script>
+</body>
+</html>
